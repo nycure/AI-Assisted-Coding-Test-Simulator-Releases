@@ -4,7 +4,7 @@ An authentic simulation of modern corporate AI-assisted recruitment coding asses
 
 ---
 
-## 🌟 Key Features
+## Key Features
 
 ### 1. Guarded AI Assistant with 5-Step Scaffolding Flow
 Unlike general-purpose coding assistants that simply write solutions, this assessment assistant strictly enforces the corporate recruitment scaffolding flow:
@@ -14,10 +14,10 @@ Unlike general-purpose coding assistants that simply write solutions, this asses
 4. **Phase 4: Starter Code Stub** — Generates tailored starter code with an interactive **"Insert in Editor"** button.
 5. **Phase 5: Iterative Refinement & Debugging** — Refinements require candidates to explain **WHAT** logic to change and **WHY**.
 
-### 2. Strict DO's & DON'Ts Guardrails
-- 🚫 **DON'T request complete solutions**: Prompts like *"write the code"*, *"just solve it"*, or *"give complete answer"* are intercepted with an explanation of assessment rules.
-- 🚫 **DON'T ask to "optimize it" or "fix it" without explanation**: The assistant prompts candidates to explain the underlying logic first.
-- 🚫 **No conversational drift or prompt injection bypasses**.
+### 2. Strict DO's and DON'Ts Guardrails
+- **DON'T request complete solutions**: Prompts like *"write the code"*, *"just solve it"*, or *"give complete answer"* are intercepted with an explanation of assessment rules.
+- **DON'T ask to "optimize it" or "fix it" without explanation**: The assistant prompts candidates to explain the underlying logic first.
+- **No conversational drift or prompt injection bypasses**.
 
 ### 3. Realistic Assessment Constraints & Monaco Editor
 - **Live Countdown Timer**: 20-minute exam timer with visual warning indicators.
@@ -33,25 +33,25 @@ Evaluates candidates across two equal recruitment pillars upon submission:
 - **Pillar 2: AI Assistance & Collaboration Marks (0 - 50 Marks)**:
   - *Scaffolding Progression (0 - 20 pts)*: Advancement through problem framing, data structures, and approach.
   - *Prompt Quality & Specificity (0 - 15 pts)*: Depth, clarity, and precision of inputs/outputs/constraints.
-  - *Rule Adherence & Integrity (0 - 10 pts)*: Following DOs & DON'Ts without asking for direct answers.
+  - *Rule Adherence & Integrity (0 - 10 pts)*: Following DOs and DON'Ts without asking for direct answers.
   - *Token & Prompt Efficiency (0 - 5 pts)*: Effective utilization of the 2,000-token budget.
 - **One-Click Scorecard Export**: Save your complete performance evaluation and hiring verdict as a Markdown (`.md`) report.
 
 ---
 
-## 🚀 Quick Start: How to Use
+## Quick Start: How to Use
 
 1. **Install**: Click **Install** from the VS Code Marketplace.
 2. **Open the Simulator**:
    - Click the **AI Assessment Simulator** icon in the left Activity Bar.
-   - Or click the **$(mortar-board) AI Coding Assessment** item in the bottom status bar.
+   - Or click the **AI Coding Assessment** item in the bottom status bar.
    - Or open the Command Palette (`Ctrl+Shift+P` / `Cmd+Shift+P`) and select `AI Assessment: Start Practice Assessment`.
 3. **Practice**: Browse problems from the **Question Bank**, collaborate with the AI assistant, write code in the editor, and run test cases.
 4. **Submit**: Click **Submit Test** when finished to receive your comprehensive 100-mark evaluation scorecard!
 
 ---
 
-## ⚡ AI Integration: Google Gemini 2.5 Flash
+## AI Integration: Google Gemini 2.5 Flash
 
 This extension is powered by **Google Gemini 2.5 Flash** for intelligent scaffolding and candidate evaluation:
 
@@ -61,6 +61,7 @@ This extension is powered by **Google Gemini 2.5 Flash** for intelligent scaffol
 
 ---
 
-## 📄 License
+## License
 
 This extension is licensed under the MIT License.
+
